@@ -47,7 +47,8 @@ export class LineChartComponent implements OnInit{
               align: 'center'
             }
           }
-        }
+        },
+        responsive: false
       },
     });
   }
