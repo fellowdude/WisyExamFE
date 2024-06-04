@@ -1,0 +1,16 @@
+.separator {
+  height: 102px;
+}
+
+.custom-size{
+  width: 70px;
+}
+
+@media screen and (min-width: 1280px) {
+  .custom-size{
+    width: 100%;
+  }
+  .separator {
+    height: 112px;
+  }
+}
